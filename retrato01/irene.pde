@@ -1,5 +1,7 @@
-void irene(){
+void irene(float posx, float posy) {
   //pelo
+  push();
+    translate(posx, float posy);
     line(m,m*2,m*2,m*2);
     line(m*4,m*2,m*5,m*2);
     arc(m*5,m*2,m*2,m*2,radians(270),radians(360));
